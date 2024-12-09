@@ -13,6 +13,10 @@ section {
   margin-bottom: 40px;
 }
 
+.hero .container {
+  background-color: #fff;
+}
+
 .hero-txt {
   font-size: 1.2rem;
   color: #7f8c8d;
@@ -68,4 +72,11 @@ section a:hover {
 /* CTA Section */
 .cta {
   margin-top: 40px;
+}
+
+.hero {
+  background-image: url("https://acutrans.com/wp-content/uploads/2020/07/languages-around-the-world-1024x710.png");
+  background-position: center;
+  height: 600px;
+  align-items: center;
 }
