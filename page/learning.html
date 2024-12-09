@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/learning.css" />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <h2>Logo</h2>
+        </a>
+      </div>
+
+      <div class="nav-links">
+        <a href="learning.html" class="nav-active">Learning</a>
+        <a href="contribute.html">Contribute</a>
+        <a href="settings.html">Settings</a>
+      </div>
+    </nav>
+
+    <div style="display: flex; flex-direction: column; width: 100%">
+      <!-- Head Content  -->
+      <div class="head-content">
+        <h1>Welcome to Language Learning!</h1>
+        <p>
+          Start exploring languages today by choosing a module from the sidebar.
+        </p>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Sidebar  -->
+        <div class="sidebar">
+          <h3>Learning Modules</h3>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="module-link sidebar-active"
+                data-target="alphabet"
+                >Alphabets</a
+              >
+            </li>
+            <li>
+              <a href="#" class="module-link" data-target="words">Words</a>
+            </li>
+            <li>
+              <a href="#" class="module-link" data-target="sentences"
+                >Sentences</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Toggle Content -->
+        <section class="toggle-cont">
+          <div id="alphabet" class="toggle-content">
+            <h2>Alphabet Lesson</h2>
+            <p>Content for the alphabet goes here.</p>
+          </div>
+
+          <div id="words" class="toggle-content" style="display: none">
+            <h2>Words Lesson</h2>
+            <p>Content for the words goes here.</p>
+          </div>
+
+          <div id="sentences" class="toggle-content" style="display: none">
+            <h2>Sentences Lesson</h2>
+            <p>Content for the sentences goes here.</p>
+          </div>
+        </section>
+      </div>
+
+      <script src="../script/learning.js"></script>
+    </div>
+  </body>
+</html>
