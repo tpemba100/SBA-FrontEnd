@@ -27,11 +27,11 @@ loginForm.addEventListener("submit", function (event) {
     return;
   }
 
-  // Main function
+  // Main function -> will send data to backend in future
   console.log("Email:", email);
   console.log("Password:", password);
 
-  // Redirect to the learning page
+  // Redirect to the learning page after 2 sec
   setTimeout(function () {
     window.location.href = "learning.html";
   }, 2000);

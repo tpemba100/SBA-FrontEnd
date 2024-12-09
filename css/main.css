@@ -55,7 +55,7 @@ nav .nav-links a:hover {
 
 nav .nav-links a.nav-active {
   font-weight: bold;
-  color: #f39c12; /* Highlight color */
+  color: #f39c12;
 }
 
 .nav-links {

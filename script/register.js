@@ -10,7 +10,7 @@ const formDataPre = document.getElementById("formData");
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
-// Add an event listener for the form submission
+// Add event listener for the form submission
 registerForm.addEventListener("submit", function (event) {
   event.preventDefault(); // Prevent the form from actually submitting
 
@@ -32,7 +32,7 @@ registerForm.addEventListener("submit", function (event) {
     return;
   }
 
-  // Log the form data to the console
+  // console the data
   console.log("Name:", name);
   console.log("Email:", email);
   console.log("Password:", password);
