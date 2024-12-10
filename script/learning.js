@@ -20,3 +20,27 @@ moduleLinks.forEach((link) => {
     }
   });
 });
+
+//Load the language data
+function loadLanguage() {
+  fetch("../ts.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const tableBody = document.querySelector(".rwd-table tbody");
+
+      for (let i = 0; i < 10; i++) {
+        const row = document.createElement("tr");
+
+        const langCell = document.createElement("td");
+        langCell.classList.add("lang-row");
+        langCell.textContent = data[i].letter;
+
+        const pronunciationCell = document.createElement("td");
+        pronunciationCell.textContent = data[i].pronunciation;
+
+        row.appendChild(langCell);
+        row.appendChild(pronunciationCell);
+        tableBody.appendChild(row);
+      }
+    });
+}
