@@ -5,7 +5,10 @@ A user-friendly platform designed to help you explore alphabets, words, and sent
 
 ---
 
+[View the README on GitHub](https://github.com/tpemba100/SBA-FrontEnd)
+
 ## ✨ Pages
+
 - HTML, CSS, JS, JSON, TABLE
 
 ## ✨ Features
@@ -29,5 +32,4 @@ A user-friendly platform designed to help you explore alphabets, words, and sent
 - **Register**
 - **Learning**
 - **Contribution**
-- **sSetting** 
- 
+- **sSetting**
