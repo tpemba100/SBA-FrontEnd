@@ -5,6 +5,9 @@ A user-friendly platform designed to help you explore alphabets, words, and sent
 
 ---
 
+## ✨ Pages
+- HTML, CSS, JS, JSON, TABLE
+
 ## ✨ Features
 
 - **Interactive Learning**  
@@ -25,6 +28,6 @@ A user-friendly platform designed to help you explore alphabets, words, and sent
 - **Log in**
 - **Register**
 - **Learning**
-- Contribution**
+- **Contribution**
 - **sSetting** 
  
