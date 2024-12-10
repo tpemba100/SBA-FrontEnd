@@ -80,10 +80,49 @@ body {
   display: flex;
   justify-content: left;
   margin-left: 380px;
+  /* background-color: #ecc189; */
 }
 .toggle-content {
-  background-color: #f39c12;
   width: 90%;
+  /* padding: 30px 0; */
+}
+
+.info-content {
   padding: 30px 0;
   padding-left: 30px;
+  background-color: #f39c12;
+}
+
+/* table */
+/* table */
+
+.table-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.rwd-table {
+  margin: 30px 0;
+  min-width: 600px;
+  background: #34495e;
+  color: #fff;
+  border-radius: 0.4em;
+  overflow: hidden;
+}
+
+.rwd-table th,
+.rwd-table td {
+  text-align: left;
+  padding: 1rem;
+  font-size: 18px;
+}
+
+.rwd-table th {
+  background: #496179;
+}
+
+.rwd-table .language {
+  font-size: 30px;
 }
